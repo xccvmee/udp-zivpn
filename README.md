@@ -62,6 +62,11 @@ Lihat dokumentasi lengkap di sini 👉 [API Documentation](./zivpn_api.md)
 ```
 - UDP-ZIVPN 1:65535
 ```
+### SERVICE INFO
+```
+systemctl status udpzivpn.service
+systemctl status zivpn-api.service
+```
 
 ### SETTING CLOUDFLARE
 
