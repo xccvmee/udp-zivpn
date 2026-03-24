@@ -31,7 +31,7 @@ echo "[*] Memuat ulang systemd dan menyalakan layanan..."
 systemctl daemon-reload
 systemctl restart udpzivpn
 systemctl restart zivpn-api
-systemctl restart zivpn-bot
+#systemctl restart zivpn-bot
 
 echo ""
 echo "[V] Selesai! Berikut adalah status layanan saat ini:"
