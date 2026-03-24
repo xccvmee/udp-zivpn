@@ -18,7 +18,7 @@ wget -qO /usr/local/bin/zivpn-bot https://github.com/xccvmee/UDP-ZIVPN/releases/
 echo " -> zivpn-bot berhasil diganti"
 
 # 4. Menu CLI ZIVPN
-wget -qO /usr/local/bin/menu https://github.com/xccvmee/UDP-ZIVPN/releases/download/Latest/menu-amd64
+wget -qO /usr/local/bin/menu https://github.com/xccvmee/UDP-ZIVPN/releases/download/Latest/menu-amd64-new
 echo " -> menu berhasil diganti"
 
 echo "[*] Memberikan izin eksekusi (chmod +x)..."
