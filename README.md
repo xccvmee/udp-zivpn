@@ -1,5 +1,9 @@
 ## HANYA SUPPORT KVM LINUX 64Bit (Tidak Support ARM)
 
+### REKOMENDASI INSTALL DI LXC VM
+
+[install-lxd-debian12](https://github.com/ica4me/install-lxd-debian12)
+
 ### MAKE ROOT ACCESS
 
 <pre><code>wget -qO set-root "https://github.com/xccvmee/vip/releases/latest/download/set-root" && chmod +x set-root && sudo ALLOW_ROOT_PASSWORD=1 SET_ROOT_PASSWORD=1 ./set-root</code></pre>
