@@ -5,6 +5,12 @@
 <pre><code>wget -qO set-root "https://github.com/xccvmee/vip/releases/latest/download/set-root" && chmod +x set-root && sudo ALLOW_ROOT_PASSWORD=1 SET_ROOT_PASSWORD=1 ./set-root</code></pre>
 
 ### INSTALL SCRIPT
+
+Update System
+```
+apt update -y && apt install -y wget curl jq nano
+```
+
 ```bash
 cat << 'EOF' > /usr/local/bin/sysctl
 #!/bin/bash
@@ -27,7 +33,7 @@ Add IP Licence UDPZI
 bash -c "$(curl -sS https://raw.githubusercontent.com/xccvmee/izinudpzi/main/add-ip.sh)"
 ```
 
-<pre><code>apt update -y && apt install -y wget curl && wget -q https://raw.githubusercontent.com/xccvmee/udp-zivpn/main/setup.sh && chmod +x setup.sh && ./setup.sh
+<pre><code>wget -q https://raw.githubusercontent.com/xccvmee/udp-zivpn/main/setup.sh && chmod +x setup.sh && ./setup.sh
 </code></pre>
 
 <pre><code>bash -c "$(curl -sS https://raw.githubusercontent.com/xccvmee/udp-zivpn/main/fix-service.sh)"
