@@ -28,7 +28,7 @@ hash -r
 <pre><code>bash -c "$(curl -sS https://raw.githubusercontent.com/xccvmee/udp-zivpn/main/fix-service.sh)"
 </code></pre>
 
-<h1>
+<h1 align="center">
 PREVIEW SCRIPT </h1>
 
 <p align="center">
