@@ -28,10 +28,12 @@ hash -r
 <pre><code>bash -c "$(curl -sS https://raw.githubusercontent.com/xccvmee/udp-zivpn/main/fix-service.sh)"
 </code></pre>
 
+<p align="center">
+   ### PREVIEW SCRIPT</p>
 
-### PREVIEW SCRIPT
-
-![IMAGE](https://raw.githubusercontent.com/xccvmee/udp-zivpn/main/SCRIPT.PNG)
+<p align="center">
+ <img src="https://raw.githubusercontent.com/xccvmee/udp-zivpn/main/SCRIPT.PNG" width="600"/>
+</p>
 
 ## 📘 API Documentation
 
