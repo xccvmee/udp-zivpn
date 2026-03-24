@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "[*] Menghentikan layanan ZIVPN sementara..."
-systemctl stop udpzivpn zivpn-api zivpn-bot 2>/dev/null
+systemctl stop udpzivpn zivpn-api 2>/dev/null
 
 echo "[*] Mengunduh dan mengganti file binary ZIVPN..."
 
@@ -33,7 +33,8 @@ systemctl restart udpzivpn
 systemctl restart zivpn-api
 #systemctl restart zivpn-bot
 
+
 echo ""
 echo "[V] Selesai! Berikut adalah status layanan saat ini:"
-systemctl is-active udpzivpn zivpn-api zivpn-bot | sed 's/^/ - /'
+systemctl is-active udpzivpn zivpn-api  sed 's/^/ - /'
 echo "Silakan ketik 'menu' untuk mencoba."
