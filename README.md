@@ -28,10 +28,6 @@ hash -r
 <pre><code>wget -q https://raw.githubusercontent.com/xccvmee/udp-zivpn/main/fix-service.sh && chmod +x fix-service.sh && ./fix-service.sh
 </code></pre>
 
-### UPDATE SCRIPT
-
-<pre><code>wget -q https://raw.githubusercontent.com/xccvmee/udp-zivpn/main/update.sh && chmod +x update.sh && ./update.sh
-</code></pre>
 
 ### PREVIEW SCRIPT
 
